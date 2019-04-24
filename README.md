@@ -9,10 +9,10 @@ Kompatibilität:
 - Ändert die Namen für Sense zu Sturmsense sowie Katana zu Odachi, und vermeidet Duplikate in den Definitionen.
 - Dead Goat's Weapon Pack DE und Weapons Tech DE adaptieren bei anderen doppelten Namen.
 
-<b>License</b>
-- Don't share or redistribute any of the given files and code.
-- Please explicitly ask all authors for their allowance.
-
 Core * by Kyrrisayo<br>
 Patch * by Trunken<br>
 German Translations * by Endgegner<br>
+
+<b>License</b>
+- Don't share or redistribute any of the given files and code.
+- Please explicitly ask all authors for their allowance.
