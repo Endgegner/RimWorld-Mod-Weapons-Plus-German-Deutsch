@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BaseMeleeThrownWeapon">
+    <defName>RangedWeapon_Kunai</defName>
+    <label>kunai</label>
+    <description>Originally a Japanese farming instrument, similar in use to a hand-shovel, the kunai is a multi-purpose tool useful in both ranged and melee combat.</description>
+    <graphicData>
+      <texPath>Weapons_Ranged/Knives/Kunai</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_BeatFire</soundInteract>
+    <costStuffCount>20</costStuffCount>
+    <statBases>
+      <WorkToMake>3500</WorkToMake>
+      <Mass>0.55</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.38</AccuracyMedium>
+      <AccuracyLong>0.13</AccuracyLong>
+      <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
+    </statBases>
+	<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+    <weaponTags>
+      <li>NeolithicRangedLight</li>
+	  <li>MedievalRangedLight</li>
+    </weaponTags>
+	<equippedAngleOffset>-65</equippedAngleOffset>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Kunai_Thrown</defaultProjectile>
+        <warmupTime>0.8</warmupTime>
+        <range>15</range>
+        <soundCast>Interact_BeatFire</soundCast>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+         <cooldownTime>1.1</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>6</power>
+         <cooldownTime>1.1</cooldownTime>
+      </li>
+	  <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>5</power>
+         <cooldownTime>1.1</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>Kunai_Thrown</defName>
+    <label>kunai</label>
+    <graphicData>
+      <texPath>Weapons_Ranged/Knives/Kunai_Thrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>RangedStab</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <stoppingPower>1.8</stoppingPower>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+  
+</Defs>

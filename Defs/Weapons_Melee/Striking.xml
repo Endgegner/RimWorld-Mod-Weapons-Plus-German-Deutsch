@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>MeleeWeapon_Brass_Knuckles</defName>
+		<label>brass knuckles</label>
+    <techLevel>Neolithic</techLevel>
+		<description>Traditionally made of brass, these are pieces of metal shaped to fit around one's knuckles. They are illegal on many core worlds.</description>
+		<graphicData>
+			<texPath>Weapons_Melee/Striking/Brass_Knuckles</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+    <weaponTags>
+      <li>NeolithicMeleeDecent</li>
+	  <li>MedievalMeleeBasic</li>
+    </weaponTags>
+    <costStuffCount>35</costStuffCount>
+		<statBases>
+			<WorkToMake>9000</WorkToMake>
+			<Mass>0.4</Mass>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+    <tools>
+      <li>
+        <label>knuckles</label>
+		<labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+	<recipeMaker>
+	  <skillRequirements>
+		<Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>MeleeWeapon_Tonfa</defName>
+		<label>tonfa</label>
+    <techLevel>Neolithic</techLevel>
+		<description>Tonfa consist of a stick perpendicular to a handle attached a third of the way down. While held in a backwards position, they extend out slightly beyond one's fist and elbow.</description>
+		<graphicData>
+			<texPath>Weapons_Melee/Striking/Tonfa</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+	  <li>MedievalMeleeDecent</li>
+    </weaponTags>
+    <costStuffCount>35</costStuffCount>
+		<statBases>
+			<WorkToMake>11000</WorkToMake>
+			<Mass>1.3</Mass>
+		</statBases>
+		<equippedAngleOffset>55</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+    <tools>
+      <li>
+        <label>end</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+	  <li>
+        <label>side</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+    </tools>
+	<recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+	  <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	</ThingDef>
+  
+</Defs>
