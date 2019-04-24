@@ -13,5 +13,6 @@ Kompatibilität:
 - Don't share or redistribute any of the given files and code.
 - Please explicitly ask all authors for their allowance.
 
+Core * by Kyrrisayo
 Patch * by Trunken<br>
 German Translations * by Endgegner<br>
