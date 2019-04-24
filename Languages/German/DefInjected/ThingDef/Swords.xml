@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MeleeWeapon_Katana.label>Odachi</MeleeWeapon_Katana.label>
-  <MeleeWeapon_Katana.description>Ein leicht kurviges, langes Schwert mit den Wurzeln in einem Land namens Japan aus längst vergangenen Jahrhunderten. Sie wird bei den richtigen Schmieden endlose Male gefaltet um der Klinge mehr Durchschlagskraft zu verleihen.</MeleeWeapon_Katana.description>
-  <MeleeWeapon_Katana.tools.0.label>Griff</MeleeWeapon_Katana.tools.0.label>
-  <MeleeWeapon_Katana.tools.1.label>Spitze</MeleeWeapon_Katana.tools.1.label>
-  <MeleeWeapon_Katana.tools.2.label>Klinge</MeleeWeapon_Katana.tools.2.label>
+  <MeleeWeapon_Odachi.label>Odachi</MeleeWeapon_Odachi.label>
+  <MeleeWeapon_Odachi.description>Ein leicht kurviges, langes Schwert mit den Wurzeln in einem Land namens Japan aus längst vergangenen Jahrhunderten. Sie wird bei den richtigen Schmieden endlose Male gefaltet um der Klinge mehr Durchschlagskraft zu verleihen.</MeleeWeapon_Odachi.description>
+  <MeleeWeapon_Odachi.tools.0.label>Griff</MeleeWeapon_Odachi.tools.0.label>
+  <MeleeWeapon_Odachi.tools.1.label>Spitze</MeleeWeapon_Odachi.tools.1.label>
+  <MeleeWeapon_Odachi.tools.2.label>Klinge</MeleeWeapon_Odachi.tools.2.label>
 
   <MeleeWeapon_Claymore.label>Claymore</MeleeWeapon_Claymore.label>
   <MeleeWeapon_Claymore.description>Eine Waffe mit gerader, zweischneidiger Klinge. Sie wird vom Heft zur Spitze hin schmaler und hat das typische V-förmige Parierelement.</MeleeWeapon_Claymore.description>
