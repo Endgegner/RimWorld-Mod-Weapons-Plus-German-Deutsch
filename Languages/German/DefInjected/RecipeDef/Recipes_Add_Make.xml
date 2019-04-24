@@ -62,9 +62,9 @@
   <Make_MeleeWeapon_Tonfa.jobString>Waffenherstellung.</Make_MeleeWeapon_Tonfa.jobString>
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
-  <Make_MeleeWeapon_Katana.label>Stelle ein Katana her</Make_MeleeWeapon_Katana.label>
-  <Make_MeleeWeapon_Katana.description>Stelle ein Katana her.</Make_MeleeWeapon_Katana.description>
-  <Make_MeleeWeapon_Katana.jobString>Waffenherstellung.</Make_MeleeWeapon_Katana.jobString>
+  <Make_MeleeWeapon_Odachi.label>Stelle ein Odachi her</Make_MeleeWeapon_Katana.label>
+  <Make_MeleeWeapon_Odachi.description>Stelle ein Odachi her.</Make_MeleeWeapon_Katana.description>
+  <Make_MeleeWeapon_Odachi.jobString>Waffenherstellung.</Make_MeleeWeapon_Katana.jobString>
 
   <Make_MeleeWeapon_Claymore.label>Stelle einen Claymore her</Make_MeleeWeapon_Claymore.label>
   <Make_MeleeWeapon_Claymore.description>Stelle einen Claymore her.</Make_MeleeWeapon_Claymore.description>
