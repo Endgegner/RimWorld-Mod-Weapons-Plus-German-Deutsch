@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>MeleeWeapon_Katana2</defName>
+    <defName>MeleeWeapon_Odachi</defName>
     <label>katana</label>
     <description>A single-edged, curved, long sword, of Japanese origin.</description>
     <graphicData>
